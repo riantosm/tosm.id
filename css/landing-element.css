@@ -1,0 +1,33 @@
+.awal{
+	opacity: 1;
+	transition: 2s;
+	margin-top: 0px;
+	transform: translate(0, 0);
+}
+.atas_h{
+	opacity: 0;
+	transition: 2s;
+	transform: translate(0, -40px);
+}
+.bawah_h{
+	opacity: 0;
+	transition: 2s;
+	transform: translate(0, 40px);
+}
+.kiri_h{
+	opacity: 0;
+	transition: 2s;
+	transform: translate(-40px, 0);
+}
+.kanan_h{
+	opacity: 0;
+	transition: 2s;
+	transform: translate(40px, 0);
+}
+@media (max-width: 676px) {
+	.atas_h, .bawah_h, .kiri_h, .kanan_h{
+		opacity: 0;
+		transition: 2s;
+		transform: translate(0, -40px);
+	}
+}

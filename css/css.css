@@ -1,0 +1,164 @@
+a:hover, a:link{
+	text-decoration: none;
+	transition: 0.5s;
+}
+nav{
+	transition: 1s;
+}
+.sosmed{
+	color: #666 !important;
+	font-size: 20px;
+	transition: 0.5s;
+}
+.sosmed:hover{
+	color: #fff !important;
+	font-size: 20px;
+	transition: 0.5s;
+}
+.ter{
+	font-size: 30px !important;
+	color: #666 !important;
+	transition: 0.5s;
+}
+.ter:hover{
+	font-size: 30px !important;
+	color: #fff !important;
+	transition: 0.5s;
+}
+.boday{
+	position: absolute;
+	z-index: 10;
+	color: white;
+	width: 100%;
+}
+.logo{
+    -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.29));
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumbotron{
+	background-color: transparent !important;
+}
+.jumbotron .text{
+	margin-top: 200px;
+	line-height: 35px;
+}
+.bg-tosm{
+	background-color: #18f915 !important;
+}
+.bg-nav{
+	background-color: rgba(0,0,0,0.8);
+}
+.bg-blue{
+	background-color: #1a252f;
+}
+.bg-blues-2{
+	background-color: #090e12;
+}
+.bg-shadow{	
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+.border-tosm{
+	border-color: #18f915 !important;
+}
+.text-tosm{
+	color: #18f915;
+}
+ul.nav-pills .text-tosm:hover{
+	color: #fff;
+}
+.text-black{
+	color: #000 !important;
+}
+.text-blue{
+	color: #1a252f;
+}
+.text-tosm.text-shadow{
+	text-shadow: 2px 2px 4px rgba(0, 101, 11, 0.5);
+}
+
+.header{
+	margin-top: 200px;
+	height: 300px;
+}
+.h1s{
+	font-size: 60px;
+}
+.h2s{
+	font-size: 25px;
+	/*line-height: 25px;*/
+}
+.hr1{
+	border-top: 2px solid #1a252f;
+	width: 50px;
+}
+.hr2{
+	border-top: 2px solid #18f915;
+	width: 50px;
+}
+
+@media (max-width: 920px) {
+	.h1s{
+		font-size: 50px;
+	}
+	.h2s{
+		font-size: 25px;
+	}
+}
+@media (max-width: 676px) {
+	.h1s{
+		font-size: 40px;
+	}
+	.h2s{
+		font-size: 18px;
+	}
+}
+.btn-down{
+	border: 1px solid white;
+	border-radius: 15px;
+	padding: 10px;
+	color: white;
+	margin-top: 50px;
+}
+
+.row-skill{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.circle{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #18f915;
+	border-radius: 100%;
+	margin-top: 2px;
+	float: right;
+}
+.circle.one{
+	background-color: #18f915;
+}
+
+
+.nav-item.active .nav-link.ini{
+	color: #18f915 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #18f915 !important;
+	color: #000 !important;
+}
+.portfolio .img-thumbnail {
+	background-color: #fff;
+	border: 1px solid #fff;
+	transition: 0.5s;
+}
+.portfolio .img-thumbnail:hover {
+	background-color: #18f915;
+	border: 1px solid #18f915;
+	transition: 0.5s;
+}

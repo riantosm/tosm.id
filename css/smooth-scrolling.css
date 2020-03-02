@@ -1,0 +1,27 @@
+.cang_btn_up{
+    position: fixed;
+    margin: 15px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 1;
+    transition: 0.5s;
+}
+.cang_btn_up_s{
+    position: fixed;
+    margin: 15px;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+}
+.btn_up{
+    width: 40px;
+    height: 35px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}

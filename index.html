@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Particle animated -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css'>
+
+    <link href="img/logos.png" rel="shortcut icon"/>
+    <!-- Particle animated -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/css.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/loading.css">
+    
+    <link rel="stylesheet" href="css/particle.css">
+    
+    <link rel="stylesheet" href="css/terminal-text-effect.css">
+    
+    <link rel="stylesheet" href="css/landing-element.css">
+
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <link rel="stylesheet" href="css/smooth-scrolling.css">
+
+    <title>Rian Tosm</title>
+  </head>
+  <body class="stop-scrolling">
+    <div class="bg_loading show" id="bg_loading">
+      <img src="img/logo.png" class="logo-loading animated infinite rubberBand">
+      <!-- <div class="loading border-tosm" id="loading"></div> -->
+    </div>
+    <div class="bg-particle">
+      <div id="particle-canvas"></div>
+    </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="">
+          <img src="img/logo.png" class="logo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto text-capitalize">
+            <li class="nav-item active" id="btn-beranda">
+              <a class="nav-link ini" id="a-beranda" href="#beranda">beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" id="btn-tentang">
+              <a class="nav-link ini" id="a-tentang" href="#tentang">tentang</a>
+            </li>
+            <li class="nav-item" id="btn-developer">
+              <a class="nav-link ini" id="a-developer" href="#developer">developer</a>
+            </li>
+            <li class="nav-item" id="btn-edukasi">
+              <a class="nav-link ini" id="a-edukasi" href="#edukasi">edukasi</a>
+            </li>
+            <li class="nav-item" id="btn-portofolio">
+              <a class="nav-link ini" id="a-portofolio" href="#portofolio">portofolio</a>
+            </li>
+            <li class="nav-item" id="btn-kontak">
+              <a class="nav-link ini" id="a-kontak" href="#kontak">kontak</a>
+            </li>
+          </ul>
+          <div class="col-md-4 navbar-text text-lg-right text-left d-none d-lg-block">
+            <a href="https://www.instagram.com/rian.tosm/" class="sosmed mr-2" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a> 
+            <a href="https://www.facebook.com/rian.tosm" class="sosmed mr-2" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a> 
+            <a href="https://plus.google.com/114440405467696004777" class="sosmed" target="_blank">
+              <i class="fab fa-google-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="boday" id="beranda">
+      <div class="header text-center">
+        <div class="container">
+        <div class="text text-uppercase text-center">
+          <div class="atas_h" id="atas">
+            <span class="h1s font-weight-bold">Hallo, Saya </span>
+            <span class="h1s font-weight-bold text-tosm" id='text'></span><div class='console-underscore' id='console'>&#95;</div>
+          </div>
+
+          <br>
+          <div class="h2s font-weight-normal text-tosm bawah_h" id="bawah">programer gadungan</div>
+        </div>
+        </div>
+      </div>
+      <div class="container btns">
+        <div class="row atas_h" id="atas">
+          <div class="col text-center">
+            <a href="#tentang" class="ini d-inline-flex">
+              <div class="btn-down animated infinite bounce">
+                <i class="fas fa-angle-down"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <section class="tentang bg-white pt-5 pb-5" id="tentang">
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div class="col-12 atas_h" id="judul">
+              <h1 class="text-center text-uppercase text-blue">tentang saya</h1>
+              <hr class="hr1">
+            </div>
+            <div class="col-md-4 offset-md-4 text-center text-blue bawah_h" id="c-1">
+              <img src="img/me.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-12 text-center text-blue pt-4 bawah_h" id="c-2">
+              <p>Nama saya Karunia Andrian Saputra. Lahir pada 02 April 2000 di Bandung. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae voluptas assumenda, quis placeat doloremque corrupti nesciunt fuga laboriosam nobis perspiciatis officia fugiat nihil dolorum quas eligendi odit deleniti, nostrum aliquid.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="developer pt-5 pb-5" id="developer">
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div class="col-12 atas_h" id="judul">
+              <h1 class="text-center text-uppercase text-tosm">
+                <font color="white">web</font> developer
+              </h1>
+              <hr class="hr2">
+            </div>
+            <div class="col-12 mt-3 mb-3">
+              <div class="bawah_h" id="c-1-1">
+              Ada beberapa bahasa pemograman yang saya pelajari diantaranya bahasa C, C++, VisualBasic, Java, Html, CSS, PHP, JavaScript, dll. Tetapi saya lebih memfokuskan diri saya ke pemograman berbasis web yang berarti saya memperdalami bahasa pemograman Html, CSS, PHP, dan JavaScript.
+              </div>
+              <br><br>
+              <div class="bawah_h" id="c-1-2">
+              Mengapa saya lebih memilih ke pemograman berbasis web? Karna bentuk tampilan yang bisa saya ubah ubah sendiri sesuai keinginan saya, dibandingkan dengan pemograman lain seperti Java yang tampilannya sulit di customisasikan.
+              </div>
+            </div>
+            <div class="col-md-6 mt-3 mb-3">
+              <div class="h2s text-uppercase font-weight-bold text-lg-left text-center text-tosm text-shadow kiri_h" id="c-2">penghargaan</div>
+              <div class="row">
+                <div class="col-lg-6 mt-3 mb-3 kiri_h" id="c-3">
+                  <p class="display-3">
+                    <i class="fas fa-trophy"></i>
+                  </p>
+                  <h5 class="text-center text-tosm text-uppercase mt-2">web design</h5>
+                  <p>Juara 2 tingkat SMA/SMK se-kota Bandung di Universitas Widyatama</p>
+                </div>
+                <div class="col-lg-6 mt-3 mb-3 kiri_h" id="c-4">
+                  <p class="display-3">
+                    <i class="fas fa-trophy"></i>
+                  </p>
+                  <h5 class="text-center text-tosm text-uppercase mt-2">web design</h5>
+                  <p>Juara 3 tingkat SMA/SMK se-pulau jawa di Politeknik Harapan Bangsa Tegal</p>
+                </div>
+                <div class="col-lg-6 mt-3 mb-3 kiri_h" id="c-5">
+                  <p class="display-3">
+                    <i class="fas fa-trophy"></i>
+                  </p>
+                  <h5 class="text-center text-tosm text-uppercase mt-2">web design</h5>
+                  <p>Juara 3 tingkat SMA/SMK se-JABODETABEK di Universitas Trilogi Jakarta</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-12 mt-3 mb-3">
+                  <div class="h2s text-uppercase font-weight-bold text-lg-left text-center text-tosm text-shadow kanan_h" id="c-6">programming language</div>
+                  <div class="kanan_h" id="c-7">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-6 text-left">HTML5</div>
+                        <div class="col-6 text-right">95%</div>
+                      </div>
+                      <div class="progress m-0" style="height: 4px;">
+                        <div class="progress-bar bg-tosm" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kanan_h" id="c-8">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-6 text-left">CSS3</div>
+                        <div class="col-6 text-right">90%</div>
+                      </div>
+                      <div class="progress m-0" style="height: 4px;">
+                        <div class="progress-bar bg-tosm" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kanan_h" id="c-9">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-6 text-left">JavaScript</div>
+                        <div class="col-6 text-right">80%</div>
+                      </div>
+                      <div class="progress m-0" style="height: 4px;">
+                        <div class="progress-bar bg-tosm" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kanan_h" id="c-10">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-6 text-left">PHP</div>
+                        <div class="col-6 text-right">85%</div>
+                      </div>
+                      <div class="progress m-0" style="height: 4px;">
+                        <div class="progress-bar bg-tosm" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                </div>
+                <div class="col-12 mt-3 mb-3">
+                  <div class="h2s text-uppercase font-weight-bold text-lg-left text-center text-tosm text-shadow pb-lg-2 pt-lg-0 pt-md-3 pb-md-0 kanan_h" id="c-11">Framework</div>
+                  <div class="kanan_h" id="c-12">
+                    <div class="row-skill mt-lg-0 pt-lg-0 mt-md-1 pt-md-3">
+                      <div class="row">
+                        <div class="col-sm-6 col-3 text-left">
+                          Bootstrap 4
+                        </div>
+                        <div class="col-sm-6 col-9">
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kanan_h" id="c-13">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-sm-6 col-3 text-left">
+                          CodeIgniter
+                        </div>
+                        <div class="col-sm-6 col-9">
+                          <div class="circle mr-2"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kanan_h" id="c-14">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-sm-6 col-3 text-left">
+                          Laravel
+                        </div>
+                        <div class="col-sm-6 col-9">
+                          <div class="circle mr-2"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                          <div class="circle mr-2 one"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 mt-3 mb-3">
+                  <div class="h2s text-uppercase font-weight-bold text-lg-left text-center text-tosm text-shadow pb-lg-2 pt-lg-0 pt-md-3 pb-md-0 kanan_h" id="c-15">Pengetahuan</div>
+                  <div class="kanan_h" id="c-16">
+                    <div class="row-skill mt-lg-0 pt-lg-0 mt-md-1 pt-md-3">
+                      <div class="row">
+                        <div class="col-9 text-left">
+                          Resposive Web
+                        </div>
+                        <div class="col-3 text-right">
+                          <i class="fa fa-check"></i> 
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="border-white">
+                  </div>
+                  <div class="kanan_h" id="c-17">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-9 text-left">
+                          Animation Web
+                        </div>
+                        <div class="col-3 text-right">
+                          <i class="fa fa-check"></i> 
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="border-white">
+                  </div>
+                  <div class="kanan_h" id="c-18">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-9 text-left">
+                          Multi Language
+                        </div>
+                        <div class="col-3 text-right">
+                          <i class="fa fa-check"></i> 
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="border-white">
+                  </div>
+                  <div class="kanan_h" id="c-19">
+                    <div class="row-skill">
+                      <div class="row">
+                        <div class="col-9 text-left">
+                          API
+                        </div>
+                        <div class="col-3 text-right">
+                          <i class="fa fa-check"></i> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </section>
+      <section class="edukasi bg-white pt-5 pb-5" id="edukasi">
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div class="col-12 atas_h" id="judul">
+              <h1 class="text-center text-uppercase text-blue">edukasi</h1>
+              <hr class="hr1">
+            </div>
+            <div class="col-12 text-left text-blue">
+              <div class="row">
+                <div class="col-xl-3 col-lg-6 mt-3 mb-3 kiri_h" id="c-1">
+                  <div class="rounded bg-blue bg-shadow p-3">
+                    <h4 class="text-tosm">Sekolah Dasar</h4>
+                    <h6 class="text-tosm">SDP Al-Basyariyah</h6>
+                    <p class="text-tosm">2012</p>
+                    <p class="text-light text-justify">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid iste pariatur quisquam voluptas sequi dolore
+                    </p>
+                    <img src="img/sd.jpg" class="img-fluid rounded bg-shadow mt-3">
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 mt-3 mb-3 kiri_h" id="c-2">
+                  <div class="rounded bg-blue bg-shadow p-3">
+                    <h4 class="text-tosm">Sekolah Menengah Pertama</h4>
+                    <h6 class="text-tosm">SMPN 25 Bandung</h6>
+                    <p class="text-tosm">2015</p>
+                    <p class="text-light text-justify">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid iste pariatur quisquam voluptas sequi doloremque possimus aperiam, nobis neque, non, cumque repellendus suscipit dolore expedita repellat necessitatibus, animi harum.
+                    </p>
+                    <img src="img/smp.jpg" class="img-fluid rounded bg-shadow mt-3">
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 mt-3 mb-3 kanan_h" id="c-3">
+                  <div class="rounded bg-blue bg-shadow p-3">
+                    <h4 class="text-tosm">Sekolah Menengah Kejuruan</h4>
+                    <h6 class="text-tosm">SMK Informatika Bandung</h6>
+                    <p class="text-tosm">2018</p>
+                    <p class="text-light text-justify">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid iste pariatur quisquam voluptas sequi doloremque possimus aperiam, nobis neque, non, cumque repellendus suscipit dolore expedita repellat necessitatibus, animi harum. aperiam, nobis neque, non, cumque repellendus suscipit dolore expedita repellat necessitatibus, animi harum.
+                    </p>
+                    <img src="img/smk.jpg" class="img-fluid rounded bg-shadow mt-3">
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 mt-3 mb-3 kanan_h" id="c-4">
+                  <div class="rounded bg-blue bg-shadow p-3">
+                    <h4 class="text-tosm">Kuliah</h4>
+                    <h6 class="text-tosm">Universitas Komputer Indonesia</h6>
+                    <p class="text-tosm">2022</p>
+                    <p class="text-light text-justify">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid iste pariatur quisquam voluptas sequi doloremque possim
+                    </p>
+                    <img src="img/unikom.jpg" class="img-fluid rounded bg-shadow mt-3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portofolio pt-5 pb-5" id="portofolio">
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div class="col-12 atas_h" id="judul">
+              <h1 class="text-center text-uppercase text-tosm">portofolio</h1>
+              <hr class="hr2">
+              <div class="row mt-4">
+                <div class="col-12">
+                  <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                      <a class="link-tab text-tosm nav-link active" id="pills-all-tab"  data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">ALL</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="link-tab text-tosm nav-link" id="pills-web-tab" data-toggle="pill" href="#pills-web" role="tab" aria-controls="pills-web" aria-selected="false">WEBDESIGN</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="link-tab text-tosm nav-link" id="pills-design-tab" data-toggle="pill" href="#pills-design" role="tab" aria-controls="pills-design" aria-selected="false">DESIGN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                <div class="row">
+                  <div class="col-md-4 mt-4 kiri_h" id="c-1">
+                    <a href="img/portfolio/design/puber_b.jpg" class="thumbnail" data-lightbox="mygallery-all" data-title="Portfolio - All">
+                      <img src="img/portfolio/design/puber_s.jpg" width="100%" class="img-thumbnail shadow-sm">
+                    </a>
+                  </div>
+                  <div class="col-md-4 mt-4 kiri_h" id="c-2">
+                    <a href="img/portfolio/web/pap_b.jpg" class="thumbnail" data-lightbox="mygallery-all" data-title="Portfolio - All">
+                      <img src="img/portfolio/web/pap_s.jpg" width="100%" class="img-thumbnail shadow-sm">
+                    </a>
+                  </div>
+                  <div class="col-md-4 mt-4 kiri_h" id="c-3">
+                    <a href="img/portfolio/design/garijsa_b.jpg" class="thumbnail" data-lightbox="mygallery-all" data-title="Portfolio - All">
+                      <img src="img/portfolio/design/garijsa_s.jpg" width="100%" class="img-thumbnail shadow-sm">
+                    </a>
+                  </div>
+                  <div class="col-md-4 mt-4 kiri_h" id="c-4">
+                    <a href="img/portfolio/web/mls_b.jpg" class="thumbnail" data-lightbox="mygallery-all" data-title="Portfolio - All">
+                      <img src="img/portfolio/web/mls_s.jpg" width="100%" class="img-thumbnail shadow-sm">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab">
+                <div class="row">
+                  <div class="col-md-4 mt-4">
+                    <a href="img/portfolio/web/pap_b.jpg" class="thumbnail" data-lightbox="mygallery-web" data-title="Portfolio - Web Design">
+                      <img src="img/portfolio/web/pap_s.jpg" width="100%" class="img-thumbnail shadow-sm">
+                    </a>
+                  </div>
+                  <div class="col-md-4 mt-4">
+                    <a href="img/portfolio/web/mls_b.jpg" class="thumbnail" data-lightbox="mygallery-web" data-title="Portfolio - Web Design">
+                      <img src="img/portfolio/web/mls_s.jpg" width="100%" class="img-thumbnail shadow-sm">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+                <div class="row">
+                  <div class="col-md-4 mt-4">
+                    <a href="img/portfolio/design/puber_b.jpg" class="thumbnail" data-lightbox="mygallery-design" data-title="Portfolio - Design">
+                      <img src="img/portfolio/design/puber_s.jpg" width="100%" class="img-thumbnail shadow-sm">
+                    </a>
+                  </div>
+                  <div class="col-md-4 mt-4">
+                    <a href="img/portfolio/design/garijsa_b.jpg" class="thumbnail" data-lightbox="mygallery-design" data-title="Portfolio - Design">
+                      <img src="img/portfolio/design/garijsa_s.jpg" width="100%" class="img-thumbnail shadow-sm">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="kontak bg-white pt-5 pb-5 text-blue" id="kontak">
+        <div class="container mt-5 mb-5">
+          <div class="row">
+            <div class="col-12 atas_h" id="judul">
+              <h1 class="text-center text-uppercase text-blue">kontak</h1>
+              <hr class="hr1">
+            </div>
+            <div class="col-md-4">
+              <div class="card text-white bg-blue p-0 mt-4 kiri_h" id="c-1">
+                <div class="card-body text-center">
+                  <h5 class="card-title">My Location</h5>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.5650812065314!2d107.58425901436739!3d-6.942465994984106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e8ba9788e1af%3A0xef31cb832c3d89b5!2sJl.+Soekarno+Hatta+Gg.+Pusri%2C+Kopo%2C+Bojongloa+Kaler%2C+Kota+Bandung%2C+Jawa+Barat+40233!5e0!3m2!1sen!2sid!4v1534401643429" width="100%" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="card mt-4 kiri_h" id="c-2">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <h4>Contact Me</h4>
+                  </li>
+                  <li class="list-group-item">
+                    (+62) 898 888 3353
+                  </li>
+                  <li class="list-group-item">
+                    info@riantosm.id
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-8 mt-4 text-left kanan_h" id="c-3">
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" class="form-control" id="nama">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Mumber</label>
+                <input type="text" class="form-control" id="phone">
+              </div>
+
+              <div class="form-group">
+                <label for="mesaage">Message</label>
+                <textarea type="text" class="form-control" id="mesaage"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quotes pt-4 pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+              <img src="img/logo.png" width="100px" class="atas_h" id="c-1-1">
+              <div class="atas_h" id="c-1-2">
+                <p class="mt-3">
+                  <i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, vel, saepe. Iusto soluta cum voluptate quis, dignissimos itaque deleniti a."</i>
+                </p>
+                <p class="m-0">
+                  - Lorem
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 offset-md-3 mt-2 navbar-text text-center bawah_h" id="c-2">
+              <h4>
+              <a href="https://www.instagram.com/rian.tosm/" class="ter" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a> 
+              <a href="https://www.facebook.com/rian.tosm" class="ter" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a> 
+              <a href="https://plus.google.com/114440405467696004777" class="ter" target="_blank">
+                <i class="fab fa-google-plus"></i>
+              </a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-blues-2 p-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2 text-center text-white">
+              Copyright &copy; 2018 Rian Tosm. All rights reserved. <br>Created with <i class="fa fa-heart"></i> by Rian Tosm.
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="up cang_btn_up_s bg-blue">
+        <a href="#beranda" class="page-scroll ini">
+          <div class="btn_up font-weight-light">
+            <i class="fa fa-angle-up"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+
+    <script src='js/loading.js'></script>
+    <script src='js/particle.js'></script>
+    <script src='js/terminal-text-effect.js'></script>
+    <script src='js/lightbox-plus-jquery.min.js'></script>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    
+    <script src="js/smooth-scrolling.js"></script>
+    <script src="js/smooth-scrolling.min.js"></script>
+
+    <script src="js/smooth-scrolling-up.js"></script>
+    <script src="js/smooth-scrolling-up.min.js"></script>
+
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src='js/landing-element.js'></script>
+  </body>
+</html>
